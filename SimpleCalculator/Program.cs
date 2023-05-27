@@ -11,7 +11,7 @@ namespace SimpleCalculator
                 string num1 = Console.ReadLine();
                 Console.Write("Please Enter Second Number: ");
                 string num2 = Console.ReadLine();
-                Console.Write("Please Enter Wanted Operator: ");
+                Console.Write("Please Enter Wanted Operator (ex.'x' '/' '+' '-'): ");
                 string stringOperator = Console.ReadLine();
 
                 double parsedNum1 = double.Parse(num1);
